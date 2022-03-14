@@ -1,11 +1,10 @@
 #include <stdio.h>
 /**
- * main
+ * main - Entry point
  *
  * Return joor
  */
 int main(void)
-
 {
 int i;
 
@@ -16,6 +15,6 @@ printf("%i", i);
 
 printf("\n");
 
-return(0);
+return (0);
 
 }
