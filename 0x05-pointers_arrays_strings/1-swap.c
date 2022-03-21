@@ -14,7 +14,7 @@ int main()
 {
 	int m = 10, n = 20;
 
-	swap(&m, &n);
+	swap_int(&m, &n);
 
 	return 0;
 }
