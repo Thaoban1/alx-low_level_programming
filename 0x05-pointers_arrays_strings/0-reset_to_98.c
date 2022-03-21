@@ -8,6 +8,7 @@
  */
 
 int n = 40;
+int *pn = &n;
 void func (int *pn);
 *&pn = 98;
 
