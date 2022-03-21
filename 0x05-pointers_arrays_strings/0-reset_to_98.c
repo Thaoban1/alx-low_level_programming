@@ -7,16 +7,11 @@
  * Return: Always 0.
  */
 
-int num = 40;
-int *pNum = &Num;
+int n = 40;
+int *ptr;
+ptr = &n;
+void func (int *ptr);
 
-void func (int *pNum);
+*ptr = 98;
 
-*pNum = 98;
 
-int main () 
-{
-	putchar (Num);
-	
-	return (0);
-}
