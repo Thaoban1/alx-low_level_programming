@@ -8,8 +8,7 @@
  */
 
 int n = 40;
-int *ptr;
-ptr = &n;
+int *ptr = &n;
 void func (int *ptr);
 
 *ptr = 98;
