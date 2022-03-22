@@ -2,15 +2,13 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
+ * reset_to_98 - check the code
+ *@n: inter to point to
  * Return: Always 0.
  */
-
-int n = 40;
-int *ptr = &n;
-void func (int *ptr);
-
-*ptr = 98;
+void reset_to_98(int *n) 
+{
+*n = 98;
+}
 
 
