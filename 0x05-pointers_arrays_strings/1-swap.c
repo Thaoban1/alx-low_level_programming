@@ -3,21 +3,11 @@
 #include "main.h"
 
 /**
- * main - check your code
- *
+ * swap_int - check your code
+ *@a: the value to swap
+ *@b: the valuw to swap
  * Return: Always 0.
  */
-
-void swap_int(int *a, int *b);
-
-int main()
-{
-	int m = 10, n = 20;
-
-	swap_int(&m, &n);
-
-	return 0;
-}
 
 void swap_int(int *a, int *b)
 {
