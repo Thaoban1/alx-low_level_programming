@@ -4,7 +4,6 @@
 /**
  * _strlen - to return lenth
  *@s: ponter to string to return
-
  * Return: Always success
  */
 
