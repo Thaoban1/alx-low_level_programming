@@ -1,15 +1,22 @@
-#include <unistd.h>
 #include "main.h"
 
 /**
  * _puts - function to print
- * @c: pointer to string
+ * @str: strings to print
+ *
  * Return: Always 0.
- * On error, -1 is returned
  */
 
-int _putchar(char c)
+void _puts(char *str)
 {
-return (write(1, &c, 1));
+	int m;
+
+	char *c;
+	c = str;
+	for (m = 0, c[m], m++)
+	{
+		_putchar(c[m]);
+	}
+	_putchar('\n')
 }
 
