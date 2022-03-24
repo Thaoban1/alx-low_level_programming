@@ -6,7 +6,6 @@
  * _strcat - function to concat string
  * @dest: destination of the strung
  * @src: source of the string
- *
  * Return: Always 0.
  */
 
