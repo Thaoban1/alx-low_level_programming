@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *_strcmp - compares two string
- *@s1 - a pointer
+ *@s1: - a pointer
  *@s2: a pointer to a character
  *Return: dest
  */
