@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _memset - set a bunch of memory
  * @s: pointer to char params
@@ -17,3 +16,4 @@
 	}
 	return (s);
 }
+
