@@ -2,17 +2,17 @@
 #include "dog.h"
 
 /*
- * init_dog - initialize
- * @d: array
- * @name: name
- * @age: age
- * @owner: owner
- * Description: descript
+ * init_dog - initialize the function
+ * @d: array of the struct
+ * @name: name of the dog
+ * @age: age of thr dog
+ * @owner: owner of thr fog
+ * Description: description fot the function
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-if(d == NULL)
+if (d == NULL)
 return;
 else
 {
